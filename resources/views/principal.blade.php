@@ -2,7 +2,7 @@
 @section('content')
 <h1 class="text-center">libreria </h1>    
     <div class=" container">
-    <h1>
+    
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -15,13 +15,7 @@
         <div class="carousel-inner">
             <div class="item active">
             <img src="https://cdn.lavoz.com.ar/sites/default/files/styles/width_1072/public/nota_periodistica/caperucita_1554988307.jpg" alt="Los Angeles">
-            </div>
-
-            <div class="item">
-           
-            </div>
-
-           
+        
         </div>
 
         <!-- Left and right controls -->
@@ -36,6 +30,8 @@
         </div>
         <br>
     </div>
+
+
    <footer class="bg-danger text-white text-center text-lg-start">
       <!-- Grid container -->
       <div class="container p-4 bg-Dark ">
@@ -43,11 +39,13 @@
           <div class="row">
           <!--Grid column-->
           <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">BIENVENIDOS  </h5>
+              <h3 class="text-uppercase">BIENVENIDOS  </h3>
 
-              <p>
-              
-              </p>
+              <h5>
+              Las librerías también pueden vender libros usados. Estas tiendas, por lo general, s
+              e dedican a una serie de código de programación, un conjunto de código que alguien ha hecho para que tú puedes reutilizar dentro de tus proyectos. El objetivo es
+               sencillo, hacer más fácil y rápido el desarrollo de ciertas funciones dentro de tu app..
+              </h5>
           </div>
           <!--Grid column-->
 
@@ -60,14 +58,14 @@
                   <a href="#!" class="text-white"> Facebook</a>
               </li>
               <li>
-                  <a href="#!" class="text-white">https://www.facebook.com/HeilyspizzeriaIpiales/menu</a>
+                  <a href="#!" class="text-white">https://www.facebook.com/LibreriaCaperucitaRoja@gmail.com</a>
               </li>
               <br>
               <li>
                   <a href="#!" class="text-white">WhatsApp</a>
               </li>
               <li>
-                  <a href="#!" class="text-white">3147069070</a>
+                  <a href="#!" class="text-white">725 44 89</a>
               </li>
               </ul>
           </div>
@@ -85,7 +83,7 @@
       <!-- Copyright -->
 
   </footer> 
-</h1>
 
+</div>
 
 @stop

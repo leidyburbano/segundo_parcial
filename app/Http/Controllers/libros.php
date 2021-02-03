@@ -9,14 +9,15 @@ class libros extends Controller
 {
     //
     public function index(){
-        return view('libros');
+        $libro = DB::table('libros')->get();
+        return view('libros', ['libros' => $libro]);
     }
-    public function listado(){
 
+
+    public function listado(){
 
         $editoriales = DB::table('editorial')->get();
         return view('listado', ['editoriales' => $editoriales]);
-
 
     }
 
