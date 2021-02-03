@@ -1,8 +1,8 @@
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-danger">
          <!-- Navbar content -->
         </nav>
        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <a class="navbar-brand" href="{{url('/')}}">Libreria </a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +30,6 @@
      
      </div>
         
-     <nav class="navbar navbar-dark bg-dark">
+     <nav class="navbar navbar-dark bg-danger">
         <!-- Navbar content -->
         </nav>

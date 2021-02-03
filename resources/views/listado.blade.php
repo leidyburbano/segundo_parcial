@@ -1,7 +1,7 @@
 @extends('Layout.master')
 @section('content')
-    <h1> listado </h2>
-    <h1 class="text-center"> Editorial</h1>
+    <br><br>
+    <h1 class="text-center">listado Editorial</h1>
     <br>
     <div class="container ">
         <table class="table ">

@@ -7,8 +7,17 @@
 
 
         <title>Libreria</title>
-        
-        
+         <!-- Fonts -->
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+
+            <style>
+                body {
+                  font-family: 'Yusei Magic', sans-serif;
+                }
+            </style>
+                    
     </head>
     
     <body class="antialiased">
