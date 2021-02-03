@@ -21,5 +21,5 @@ Route::get('/', function () {
 
 Route::get('/' , [principal::class, 'Index']);
 
-Route::get('/libros' , [libros::class, 'Index']);
+Route::get('libros' , [libros::class, 'listado']);
 

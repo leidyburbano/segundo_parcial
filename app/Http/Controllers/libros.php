@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class libros extends Controller
 {
@@ -11,7 +12,12 @@ class libros extends Controller
         return view('libros');
     }
     public function listado(){
-        return view('listado');
+
+
+        $editoriales = DB::table('editorial')->get();
+        return view('listado', ['editoriales' => $editoriales]);
+
+
     }
 
 }
